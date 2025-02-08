@@ -8,6 +8,7 @@ from conan.tools.build import can_run
 
 class CuraEngineTestConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
+    generators = "VirtualRunEnv"
     test_type = "explicit"
 
     def requirements(self):
@@ -16,6 +17,9 @@ class CuraEngineTestConan(ConanFile):
     def generate(self):
         venv = VirtualRunEnv(self)
         venv.generate()
+
+    def build(self):
+        pass
 
     def test(self):
         if can_run(self):

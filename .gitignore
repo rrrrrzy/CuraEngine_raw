@@ -1,0 +1,60 @@
+# Conan
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+._*
+
+# Thumbnails
+._.DS_Store
+.DS_Store?
+
+# Temporary files
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Build directories
+build/
+bin/
+lib/
+obj/
+out/
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Others
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
